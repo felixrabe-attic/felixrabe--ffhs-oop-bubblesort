@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Bubblesort {
-    public static final random = new Random();
-    public static final TEST_DATA_AMOUNT = 20;
+    public static final Random random = new Random();
+    public static final int TEST_DATA_AMOUNT = 20;
 
     public static int[] generateRandomIntArray() {
         int[] randomArray = new int[TEST_DATA_AMOUNT];

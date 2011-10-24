@@ -9,6 +9,6 @@ public class Bubblesort {
         for (int i = 0; i < randomArray.length; i++) {
             randomArray[i] = random.nextInt();
         }
-        return new int[0];
+        return randomArray;
     }
 }

@@ -35,5 +35,22 @@ public class Bubblesort {
      * @param array the array to sort
      */
     public static void sortInPlace(int[] array) {
+        boolean hadToSwap;
+        do {
+            hadToSwap = false;
+            for (int first = 0; first < array.length - 1; first++) {
+                int second = first + 1;
+                if (array[first] > array[second]) {
+                    swap(array, first, second);
+                    hadToSwap = true;
+                }
+            }
+        } while(hadToSwap);
+    }
+
+    private static void swap(int[] array, int first, int second) {
+        int tmp = array[first];
+        array[first] = array[second];
+        array[second] = tmp;
     }
 }

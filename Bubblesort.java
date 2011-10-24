@@ -29,4 +29,11 @@ public class Bubblesort {
         }
         return randomArray;
     }
+
+    /** Sort the specified integer array in-place.  Uses the bubble sort algorithm
+     *
+     * @param array the array to sort
+     */
+    public static void sortInPlace(int[] array) {
+    }
 }
